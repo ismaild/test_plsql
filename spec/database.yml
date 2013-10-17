@@ -1,9 +1,9 @@
 # Change default connection username, password and database.
 # Specify also host and port if not using tnsnames.ora connection.
 default:
-  username: hr
-  password: hr
-  database: orcl
+  username: system
+  password: manager
+  database: 127.0.0.1/xe
   # host: localhost
   # port: 1521
 
